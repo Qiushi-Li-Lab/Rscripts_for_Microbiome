@@ -1,6 +1,5 @@
 
 
-# rDNA copy number variation in fungi, fig3 ---------------
 ##### krona plot
 ##### by Qiushi-Li, IM-CAS
 ##### 2024.11.18
@@ -16,7 +15,7 @@ rCNV_rlt_taxa_spl
 
 
 # subdata for krona plot
-rCNV_krona_df <- rCNV_rlt_taxa_spl %>% select(project, ITS_only, phy, cla, ord, fam)
+rCNV_krona_df <- rCNV_rlt_taxa_spl %>% select(project, counts, phy, cla, ord, fam)
 rCNV_krona_df
 
 
